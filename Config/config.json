@@ -1,0 +1,51 @@
+{
+  "logLevel": "debug",
+  "MAIL_SERVER_IPs": [
+    "10.184.198.24",
+    "10.184.246.116",
+    "10.184.246.117",
+    "10.185.198.24",
+    "10.185.246.116",
+    "10.185.246.117"
+  ],
+  "FROM_ADDR": "prajasekaran@paypal.com",
+  "EMAIL_SUFFIX": "@paypal.com",
+  "ADMIN_DL":"admin",
+  "URL": "\"http://localhost:63342/TechProject/UILayer/modules/Login/login1.html?_ijt=1525o93ct9lnfli90pmdj6q1a7\"",
+  "ACCESS_KEY": "ec14f5350c218780b1d",
+  "TOKEN_VALID_TIME": 480,
+  "dbConfig": {
+    "IP": "localhost",
+    "Port": 27017,
+    "Authentication": "N",
+    "userName": "test",
+    "Password": "test",
+    "connectionDBOptions": {
+      "bufferMaxEntries": 0
+    },
+    "connectionServerOptions": {
+      "poolSize": 5,
+      "maxIdleTimeMS": 1800000,
+      "auto_reconnect": true,
+      "reconnectTries": "MAX_VALUE",
+      "reconnectInterval": 10000,
+      "socketOptions": {
+        "keepAlive": 120
+      }
+    }
+  },
+  "login": {
+    "method": "POST",
+    "url": "http://psg/ldap3.php",
+    "headers": {
+      "content-type": "application/x-www-form-urlencoded"
+    }
+  },
+  "userInfo": {
+    "method": "GET",
+    "url": "http://psg/getuser.php",
+    "headers": {
+      "content-type": "application/x-www-form-urlencoded"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "AbsenceMarker":{
+    "dbName":"AbsenceManagementDB",
+    "collectionName":"AbsenceMarker",
+    "auditDBName":"AuditDB",
+    "uniqueID":"absenceID"
+  },
+  "VendorList":{
+    "dbName":"MetaDB",
+    "collectionName":"VendorList",
+    "auditDBName":"AuditDB",
+    "uniqueID":"vendorID"
+  },
+  "AwfToVendorMapping":{
+    "dbName":"MetaDB",
+    "collectionName":"AwfToVendorMapping"
+  },
+  "AuthToken":{
+    "dbName":"SecurityDB",
+    "collectionName":"AuthToken"
+  },
+  "Role":{
+    "dbName":"UserManagementDB",
+    "collectionName":"Role"
+  },
+  "InvalidUserLog":{
+    "dbName":"AuditDB",
+    "collectionName":"InvalidUserLog"
+  },
+  "PerformanceIssue":{
+    "dbName":"PerformanceManagementDB",
+    "collectionName":"PerformanceIssue",
+    "auditDBName":"AuditDB",
+    "uniqueID":"performanceID"
+  }
+}
